@@ -43,7 +43,10 @@ main {
   background-color: #FFFFFF;
   padding: 15px;
 }
-
+a{
+  color: inherit;
+  text-decoration: none;
+}
 
 u {
   color: #9141c0;
@@ -55,11 +58,6 @@ img {
   max-width: 100%;
 }
 
-
-ol {
-  padding: 15px;
-  margin: 0px 0px;
-}
 blockquote {
   background-color: #f1f0f0;
   border-left-style: solid;
