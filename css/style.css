@@ -99,22 +99,33 @@ tr:nth-child(even) {
 }*/
 .header-nobullets {
   color: #ffffff;
+  display: flex;
+  flex-flow:row wrap;
+  width: 40%;
   font-weight: 900;
   font-size: 16px;
   font-family: 'Fira Sans', sans-serif;
+  justify-content: space-etween;
   line-height: 1.5rem;
   list-style-type: none;
   padding: 1rem 0rem 1rem 0rem;
   text-transform: uppercase;
+
 }
 .nav-nobullets {
   color: #9141c0;
+  display: flex;
+  flex-flow:row wrap;
+  width: 20%;
   font-family: 'Fira Sans', sans-serif;
   font-weight: bolder;
   font-size: 1rem;
+  justify-content: space-between;
   list-style-type: none;
   line-height: 1.9rem;
-  padding: 0em 1em 0em 1em;
+  padding: 0em 2em 0em 1em;
+  align-items: center;
+  
 }
 .header-p {
   font-family: Georgia, 'Times New Roman', Times, serif;
