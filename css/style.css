@@ -6,7 +6,7 @@ article {
 }
 
 header {
-  background-image: url(../img/ingredients-960w.jpg);
+  background-image: url(./img/ingredients-960w.jpg);
   background-size: cover;
   background-position: center;
   background-color: #222028;
