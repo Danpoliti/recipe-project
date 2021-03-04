@@ -6,7 +6,7 @@ article {
 }
 
 header {
-  background-image: url(/img/ingredients-1920w.jpg);
+  background-image: url(img/ingredients-1920w.jpg);
   background-size: cover;
   background-position: center;
   background-color: #222028;
@@ -85,8 +85,11 @@ td, th {
   text-align: center;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #d7b1e9;
+}
+tr.table-head {
+  background-color: white;
 }
 /*p {
   margin: 15px 0px;
@@ -105,13 +108,13 @@ tr:nth-child(even) {
   font-weight: 900;
   font-size: 16px;
   font-family: 'Fira Sans', sans-serif;
-  justify-content: space-etween;
+  justify-content: space-between;
   line-height: 1.5rem;
   list-style-type: none;
   padding: 1rem 0rem 1rem 0rem;
   text-transform: uppercase;
+  }
 
-}
 .nav-nobullets {
   color: #9141c0;
   display: flex;
@@ -194,3 +197,4 @@ tr:nth-child(even) {
 .socialmedia {
   float: right;
 }
+
