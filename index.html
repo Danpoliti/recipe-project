@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <article>
+  <article class="article">
     <header>
       <div>
         <span>Baking</span>
@@ -35,7 +35,7 @@
         </li>
       </ul>
     </header>
-    <nav>
+    <!-- <nav class="nav-box">
       <ul class="nav-nobullets">
         <li><a href="#nav-story">Story</a></li>
         <li><a href="#nav-ingredients">Ingredients</a></li>
@@ -44,10 +44,19 @@
         <li><a href="#nav-schedule">Schedule</a></li>
         <li><a href="#nav-result">Result</a></li>
       </ul>
-    </nav>
+    </nav> -->
     <main class="main-p">
-    
-      <section>
+      <nav class="nav-box">
+        <ul class="nav-nobullets">
+          <li><a href="#nav-story">Story</a></li>
+          <li><a href="#nav-ingredients">Ingredients</a></li>
+          <li><a href="#nav-equipment">Equipment</a></li>
+          <li><a href="#nav-process">Process</a></li>
+          <li><a href="#nav-schedule">Schedule</a></li>
+          <li><a href="#nav-result">Result</a></li>
+        </ul>
+      </nav>
+      <section class="main-content">
         <h2><a id="nav-story">Story</a></h2>
         <p>Lorem, ipsum, <u>delicious bread</u> dolor sit amet consectetur adipisicing elit. Facere amet, optio fugiat
           voluptatibus recusandae
@@ -63,6 +72,7 @@
         </blockquote>
         <img src="/img/gallery-a.jpg" alt="Baked baguettes on the cutting board">
       </section>
+      <div class="sidebar">
       <section>
         <h2 <a id="nav-ingredients">Ingredients</a></h2>
 
@@ -84,7 +94,8 @@
           <li>Thermometer</li>
         </ul>
       </section>
-      <section>
+    </div>
+      <section class="main-content">
         <h2><a id="nav-process">Process</a></h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis optio nisi iure expedita modi inventore,
           eveniet nam, vero incidunt et placeat cupiditate provident ea itaque quis corporis voluptatem ipsam vitae.</p>
@@ -124,7 +135,7 @@
             src="img/baked-baguettes-480w.jpg" alt="Delicious baked baguettes, cut and stacked">
          <div>Delicious baked baguettes, cut and stacked</div>
       </section>
-      <section>
+      <section class="main-content">
         <h2><a id="nav-schedule">Schedule</a></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis cum fuga dolorum praesentium. Eum
           voluptatibus, quo, enim quod ipsa quos tempora voluptates, ut neque possimus ipsam architecto sapiente earum.
@@ -177,7 +188,7 @@
         </table>
         <div>Sample baking schedule</div>
       </section>
-      <section>
+      <section class="main-content">
         <h2><a id="nav-result">Result</a></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam enim magni minus perspiciatis soluta iste natus
           ullam, suscipit deserunt commodi, magnam assumenda? Deserunt magni nostrum libero incidunt ipsum unde eos?</p>
