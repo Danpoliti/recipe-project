@@ -1,12 +1,16 @@
+/* Style to keep the heigh to 100% of the page */
 html, body {
   height: 100%;
 }
 
+/*Smallest Portion view no margin */
+/* Largest Portion view background color */
 body {
   background-color: #d395d3;
   margin: 0;
 }
 
+/* Style to insert and blend the header background image */
 header {
   background-image: url("../img/ingredients-960w.jpg");
   background-size: cover;
@@ -17,6 +21,7 @@ header {
   padding: 35px 5px 5px 16px;
 }
 
+/* Highlights styles */
 span {
   background-color: #9141c0;
   color: #03000c;
@@ -25,11 +30,15 @@ span {
   padding: 1px 2px 1px 2px;
 }
 
+/* Navigation Menu */
+/* remove bullet points from list */
+/* remove standard anchor tag styles */
 a {
   color: inherit;
   text-decoration: none;
 }
 
+/* Style for the Head Title */
 h1 {
   font-family: 'Fira Sans', sans-serif;
   font-size: 40px;
@@ -39,6 +48,7 @@ h1 {
   text-align: left;
 }
 
+/* Style for the main content topics*/
 h2 {
   font-family: 'Fira Sans', sans-serif;
   font-size: 22px;
@@ -47,21 +57,32 @@ h2 {
   text-transform: uppercase;
 }
 
+/* Process steps title style */
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+/* Setting a background color to the main content */
 main {
   background-color: #FFFFFF;
   /* padding: 15px; */
 }
 
+/* Underlined text style */
 u {
   color: #9141c0;
   font-weight: 900;
 }
 
+/* Basic styles for all IMG */
 img {
   border-radius: 10px;
   max-width: 100%;
 }
 
+/* Story quote style*/
 blockquote {
   background-color: #f1f0f0;
   border-left-style: solid;
@@ -75,34 +96,41 @@ blockquote {
   text-align: center;
 }
 
+/* Table's general style */
 table {
   border: 0.5px solid #666666;
   border-spacing: 0ex;
   width: 100%;
 }
 
+/* Columns header style */
 thead {
   font-weight: bolder;
 }
 
+/* Columns data alignment */
 td, th {
   border: 0.5px solid #666666;
   padding: 5px 10px 5px 10px;
   text-align: center;
 }
 
+/* row's color style */
 tr:nth-child(odd) {
   background-color: #d7b1e9;
 }
 
+/* color style for the header */
 tr.table-head {
   background-color: white;
 }
 
+/* Artucle section background color */
 .article {
   background-color: #222028;
 }
 
+/* Header list style */
 .header-nobullets {
   color: #ffffff;
   font-weight: 900;
@@ -114,6 +142,7 @@ tr.table-head {
   text-transform: uppercase;
 }
 
+/* Basic Navigation Menu Style */
 .nav-nobullets {
   color: #9141c0;
   font-family: 'Fira Sans', sans-serif;
@@ -125,12 +154,15 @@ tr.table-head {
   padding: 0em 0em 0em 1em;
 }
 
+/* Basic Navigation menu hover style */
 .nav-nobullets li:hover {
-  background-color: #9141c0;
+  /* background-color: #9141c0; */
+  background-image: linear-gradient(#d08df6,#9141c0,#b761e9);
   color: #ffffff;
   font-size: 18px;
 }
 
+/* Header paragraph style */
 .header-p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -138,12 +170,9 @@ tr.table-head {
   text-align: left;
 }
 
-.main-process-list {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 800;
-  margin-top: 1rem;
-}
 
+
+/* Style for the main tag */
 .main-p {
   display: grid;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -151,10 +180,12 @@ tr.table-head {
   line-height: 1.5rem;
 }
 
+/* padding defined for Ingredients and Equipments list */
 .list {
   padding: 0rem 0rem 0rem 1rem;
 }
 
+/* Define the style for the left content on the footer */
 .footcontainer {
   align-items: center;
   color: #FFFFFF;
@@ -164,11 +195,13 @@ tr.table-head {
   padding: 15px;
 }
 
+/* Style for the p tags on the footer */
 .foot {
   margin-top: 1px;
   margin-bottom: 1px;
 }
 
+/* Basic style for social media buttons */
 .fa {
   border-radius: 5px;
   font-size: 11px;
@@ -179,53 +212,69 @@ tr.table-head {
   width: 20px;
 }
 
+/* Social media buttons hover */
 .fa:hover {
   color: #ffffff;
 }
 
+/* facebook button style */
 .fa-facebook {
   background: #9141c0;
   color: #222028;
 }
 
+/* Twitter button style */
 .fa-twitter {
   background: #9141c0;
   color: #222028;
 }
 
+/* Instagram Style */
 .fa-instagram {
   background: #9141c0;
   color: #222028;
 }
 
+/* Div style to be positioned in the right side */
 .socialmedia {
   float: right;
 }
 
+/* Padding format to the sidebar grid content */
 .sidebar {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* Padding format to the main-content grid content */
 .main-content {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* Navigation Menu box style */
 .nav-box {
-  background-color: #222028;
-  
-  /* margin:-15px -15px -15px -15px; */
+  /* background-color: #222028; */
+  background-image: linear-gradient(#3c3846,#222028, #3c3846);
 }
 
+/* Media query for the Medium Portion view */
 @media screen and (min-width: 750px) {
+ 
+ /* Article size limitation */
   .article {
-    display: flow-root;
+    display:flow-root;
     max-width: 1000px;
     margin: 0 auto;
     width: 70%;
   }
+
+  /* Header size limitation */
   .header-p {
     max-width: 70%;
   }
+
+  /* Status list style for medium and large portion view */
   .header-nobullets {
     color: #ffffff;
     display: flex;
@@ -241,6 +290,15 @@ tr.table-head {
     padding: 1rem 0rem 1rem 0rem;
     text-transform: uppercase;
   }
+
+    /* Status list style for medium and large portion view */
+  .header-nobullets li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+    /* Navigation menu style for medium and large portion view */
   .nav-nobullets {
     color: #9141c0;
     display: flex;
@@ -254,9 +312,13 @@ tr.table-head {
     max-width: 600px;
     padding: 0em 2em 0em 1em;
   }
+
+  /* Padding for navigation menu items */
   .nav-nobullets li {
     padding: 10px;
   }
+
+  /* Grid formating for Medium view port */
   .main-p {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -270,11 +332,13 @@ tr.table-head {
     margin: 0px;
   }
 
+  /* Navigation menu grid position */
   .nav-box {
     grid-area: topbar;
     padding: auto;
   }
 
+    /* Sidebar menu grid position */
   .sidebar {
     background-color: #9141c0;
     color: #222028;
@@ -282,12 +346,14 @@ tr.table-head {
     max-width: 280px;
     padding: 25px;
   }
+  /* Padding Main Content */
   .main-content {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
+/* Media query for the Largest Portion View */
 @media screen and (min-width: 1200px) {
   .main-p {
     display: grid;
